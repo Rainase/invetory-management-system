@@ -1,0 +1,14 @@
+.qr-container-root {
+    display: flex;
+}
+.qr-container {
+    margin: auto;
+    width: 320px;
+}
+.return-message p {
+    font-size: .8em;
+    opacity: .8;
+}
+.date-picker {
+    height: 100px;
+}

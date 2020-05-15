@@ -1,0 +1,87 @@
+/* :root {
+    --primary: #5F80F4;
+    --secondary: #4D4CAB;
+    --success:#1C976B;
+    --info: #36e9fe;
+    --warning: #EFAA57;
+    --danger: #D2214D;
+} */
+:root {
+    --primary: #018FFF;
+    --secondary: #4D4CAB;
+    --info: #3BDFFB;
+    --success:#46F3C5;
+    --warning: #FCC140;
+    --danger: #F26674;
+}
+
+.btn {
+    border-radius: 20px;
+    outline: none;
+    padding: .5rem .85rem;
+    margin-top: .5rem;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 0.7em;
+    color: #fff;
+    opacity: 1;
+    transition: 0.3s;
+    border-width: 0;
+    border-style:none;
+}
+.btn:hover {
+    opacity: 0.7
+}
+
+.btn-primary-solid {
+    background-color: var(--primary);
+}
+.btn-secondary-solid {
+    background-color: var(--secondary);
+}
+.btn-info-solid {
+    background-color: var(--info);
+}
+.btn-success-solid {
+    background-color: var(--success);
+}
+.btn-warning-solid {
+    background-color: var(--warning);
+}
+.btn-danger-solid {
+    background-color: var(--danger);
+}
+.btn-primary-outline {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: #fff;
+}
+.btn-secondary-outline {
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    background-color: #fff;
+}
+.btn-warning-outline {
+    border: 1px solid var(--warning);
+    color: var(--warning);
+    background-color: #fff;
+}
+.btn-danger-outline {
+    border: 1px solid var(--danger);
+    color: var(--danger);
+    background-color: #fff;
+}
+
+.btn-medium {
+    width: 100px;
+}
+.btn-large {
+    width: 100%;
+}
+.btn-small {
+    width: 55px;
+}
+.isPill {
+    border-radius: 50em;
+}
