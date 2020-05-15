@@ -42,7 +42,6 @@ const App = () => {
           <PrivateRoute exact path='/scan' component={Scan} /> 
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
-          
       </Router>
     </AuthProvider>
   );
